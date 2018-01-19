@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD69B449200F2DF2008DCD89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69B448200F2DF2008DCD89 /* AppDelegate.swift */; };
+		CD69B44B200F2DF2008DCD89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69B44A200F2DF2008DCD89 /* ViewController.swift */; };
+		CD69B44E200F2DF2008DCD89 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD69B44C200F2DF2008DCD89 /* Main.storyboard */; };
+		CD69B450200F2DF2008DCD89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD69B44F200F2DF2008DCD89 /* Assets.xcassets */; };
+		CD69B453200F2DF2008DCD89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD69B451200F2DF2008DCD89 /* LaunchScreen.storyboard */; };
+		CD69B45E200F2DF2008DCD89 /* moonmoonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69B45D200F2DF2008DCD89 /* moonmoonTests.swift */; };
+		CD69B469200F2DF2008DCD89 /* moonmoonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD69B468200F2DF2008DCD89 /* moonmoonUITests.swift */; };
+		ED6B92BD2011B7DD0093CDAF /* QuestionListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6B92BC2011B7DD0093CDAF /* QuestionListTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD69B45A200F2DF2008DCD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD69B43D200F2DF2008DCD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD69B444200F2DF2008DCD89;
+			remoteInfo = moonmoon;
+		};
+		CD69B465200F2DF2008DCD89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD69B43D200F2DF2008DCD89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD69B444200F2DF2008DCD89;
+			remoteInfo = moonmoon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD69B445200F2DF2008DCD89 /* moonmoon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moonmoon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD69B448200F2DF2008DCD89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD69B44A200F2DF2008DCD89 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD69B44D200F2DF2008DCD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD69B44F200F2DF2008DCD89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD69B452200F2DF2008DCD89 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD69B454200F2DF2008DCD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD69B459200F2DF2008DCD89 /* moonmoonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moonmoonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD69B45D200F2DF2008DCD89 /* moonmoonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moonmoonTests.swift; sourceTree = "<group>"; };
+		CD69B45F200F2DF2008DCD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD69B464200F2DF2008DCD89 /* moonmoonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moonmoonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD69B468200F2DF2008DCD89 /* moonmoonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moonmoonUITests.swift; sourceTree = "<group>"; };
+		CD69B46A200F2DF2008DCD89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED6B92BC2011B7DD0093CDAF /* QuestionListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionListTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD69B442200F2DF2008DCD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD69B456200F2DF2008DCD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD69B461200F2DF2008DCD89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD69B43C200F2DF2008DCD89 = {
+			isa = PBXGroup;
+			children = (
+				CD69B447200F2DF2008DCD89 /* moonmoon */,
+				CD69B45C200F2DF2008DCD89 /* moonmoonTests */,
+				CD69B467200F2DF2008DCD89 /* moonmoonUITests */,
+				CD69B446200F2DF2008DCD89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD69B446200F2DF2008DCD89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD69B445200F2DF2008DCD89 /* moonmoon.app */,
+				CD69B459200F2DF2008DCD89 /* moonmoonTests.xctest */,
+				CD69B464200F2DF2008DCD89 /* moonmoonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD69B447200F2DF2008DCD89 /* moonmoon */ = {
+			isa = PBXGroup;
+			children = (
+				CD69B448200F2DF2008DCD89 /* AppDelegate.swift */,
+				CD69B44A200F2DF2008DCD89 /* ViewController.swift */,
+				ED6B92BC2011B7DD0093CDAF /* QuestionListTableViewController.swift */,
+				CD69B44C200F2DF2008DCD89 /* Main.storyboard */,
+				CD69B44F200F2DF2008DCD89 /* Assets.xcassets */,
+				CD69B451200F2DF2008DCD89 /* LaunchScreen.storyboard */,
+				CD69B454200F2DF2008DCD89 /* Info.plist */,
+			);
+			path = moonmoon;
+			sourceTree = "<group>";
+		};
+		CD69B45C200F2DF2008DCD89 /* moonmoonTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD69B45D200F2DF2008DCD89 /* moonmoonTests.swift */,
+				CD69B45F200F2DF2008DCD89 /* Info.plist */,
+			);
+			path = moonmoonTests;
+			sourceTree = "<group>";
+		};
+		CD69B467200F2DF2008DCD89 /* moonmoonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD69B468200F2DF2008DCD89 /* moonmoonUITests.swift */,
+				CD69B46A200F2DF2008DCD89 /* Info.plist */,
+			);
+			path = moonmoonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD69B444200F2DF2008DCD89 /* moonmoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD69B46D200F2DF2008DCD89 /* Build configuration list for PBXNativeTarget "moonmoon" */;
+			buildPhases = (
+				CD69B441200F2DF2008DCD89 /* Sources */,
+				CD69B442200F2DF2008DCD89 /* Frameworks */,
+				CD69B443200F2DF2008DCD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moonmoon;
+			productName = moonmoon;
+			productReference = CD69B445200F2DF2008DCD89 /* moonmoon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD69B458200F2DF2008DCD89 /* moonmoonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD69B470200F2DF2008DCD89 /* Build configuration list for PBXNativeTarget "moonmoonTests" */;
+			buildPhases = (
+				CD69B455200F2DF2008DCD89 /* Sources */,
+				CD69B456200F2DF2008DCD89 /* Frameworks */,
+				CD69B457200F2DF2008DCD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD69B45B200F2DF2008DCD89 /* PBXTargetDependency */,
+			);
+			name = moonmoonTests;
+			productName = moonmoonTests;
+			productReference = CD69B459200F2DF2008DCD89 /* moonmoonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD69B463200F2DF2008DCD89 /* moonmoonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD69B473200F2DF2008DCD89 /* Build configuration list for PBXNativeTarget "moonmoonUITests" */;
+			buildPhases = (
+				CD69B460200F2DF2008DCD89 /* Sources */,
+				CD69B461200F2DF2008DCD89 /* Frameworks */,
+				CD69B462200F2DF2008DCD89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD69B466200F2DF2008DCD89 /* PBXTargetDependency */,
+			);
+			name = moonmoonUITests;
+			productName = moonmoonUITests;
+			productReference = CD69B464200F2DF2008DCD89 /* moonmoonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD69B43D200F2DF2008DCD89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = GAZA;
+				TargetAttributes = {
+					CD69B444200F2DF2008DCD89 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					CD69B458200F2DF2008DCD89 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD69B444200F2DF2008DCD89;
+					};
+					CD69B463200F2DF2008DCD89 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CD69B444200F2DF2008DCD89;
+					};
+				};
+			};
+			buildConfigurationList = CD69B440200F2DF2008DCD89 /* Build configuration list for PBXProject "moonmoon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD69B43C200F2DF2008DCD89;
+			productRefGroup = CD69B446200F2DF2008DCD89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD69B444200F2DF2008DCD89 /* moonmoon */,
+				CD69B458200F2DF2008DCD89 /* moonmoonTests */,
+				CD69B463200F2DF2008DCD89 /* moonmoonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD69B443200F2DF2008DCD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD69B453200F2DF2008DCD89 /* LaunchScreen.storyboard in Resources */,
+				CD69B450200F2DF2008DCD89 /* Assets.xcassets in Resources */,
+				CD69B44E200F2DF2008DCD89 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD69B457200F2DF2008DCD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD69B462200F2DF2008DCD89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD69B441200F2DF2008DCD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD69B44B200F2DF2008DCD89 /* ViewController.swift in Sources */,
+				CD69B449200F2DF2008DCD89 /* AppDelegate.swift in Sources */,
+				ED6B92BD2011B7DD0093CDAF /* QuestionListTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD69B455200F2DF2008DCD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD69B45E200F2DF2008DCD89 /* moonmoonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD69B460200F2DF2008DCD89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD69B469200F2DF2008DCD89 /* moonmoonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD69B45B200F2DF2008DCD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD69B444200F2DF2008DCD89 /* moonmoon */;
+			targetProxy = CD69B45A200F2DF2008DCD89 /* PBXContainerItemProxy */;
+		};
+		CD69B466200F2DF2008DCD89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD69B444200F2DF2008DCD89 /* moonmoon */;
+			targetProxy = CD69B465200F2DF2008DCD89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD69B44C200F2DF2008DCD89 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD69B44D200F2DF2008DCD89 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD69B451200F2DF2008DCD89 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD69B452200F2DF2008DCD89 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD69B46B200F2DF2008DCD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD69B46C200F2DF2008DCD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD69B46E200F2DF2008DCD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moonmoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea.GAZA.moonmoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD69B46F200F2DF2008DCD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moonmoon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea.GAZA.moonmoon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CD69B471200F2DF2008DCD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moonmoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea.GAZA.moonmoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moonmoon.app/moonmoon";
+			};
+			name = Debug;
+		};
+		CD69B472200F2DF2008DCD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moonmoonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea.GAZA.moonmoonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moonmoon.app/moonmoon";
+			};
+			name = Release;
+		};
+		CD69B474200F2DF2008DCD89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moonmoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea.GAZA.moonmoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moonmoon;
+			};
+			name = Debug;
+		};
+		CD69B475200F2DF2008DCD89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = moonmoonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kr.ac.korea.GAZA.moonmoonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moonmoon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD69B440200F2DF2008DCD89 /* Build configuration list for PBXProject "moonmoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD69B46B200F2DF2008DCD89 /* Debug */,
+				CD69B46C200F2DF2008DCD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD69B46D200F2DF2008DCD89 /* Build configuration list for PBXNativeTarget "moonmoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD69B46E200F2DF2008DCD89 /* Debug */,
+				CD69B46F200F2DF2008DCD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD69B470200F2DF2008DCD89 /* Build configuration list for PBXNativeTarget "moonmoonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD69B471200F2DF2008DCD89 /* Debug */,
+				CD69B472200F2DF2008DCD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD69B473200F2DF2008DCD89 /* Build configuration list for PBXNativeTarget "moonmoonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD69B474200F2DF2008DCD89 /* Debug */,
+				CD69B475200F2DF2008DCD89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD69B43D200F2DF2008DCD89 /* Project object */;
+}
